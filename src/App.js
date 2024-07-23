@@ -1,14 +1,17 @@
-import './App.css';
-import HelloWorld from './components/HelloWorld';
+import "./App.css";
+import HelloWorld from "./components/HelloWorld";
+import ListItems from "./components/ListaDeItens";
+import Person from "./components/Person";
+import SayMyName from "./components/SayMyName";
 
 function App() {
-const name= "Javan"
-
   return (
     <div className="App">
- <h1>Olá React!</h1>
- <p>Meu primeiro {name}</p> 
- <HelloWorld />
+      <SayMyName name="Javan" />
+      <HelloWorld />
+      <Person nome=" Javan" idade={21} profissao=" Desenvolvedor web" />
+    
+    <ListItems/>
     </div>
   );
 }
