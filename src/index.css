@@ -1,3 +1,9 @@
 body {
   background: rgba(76, 76, 76, 0.279);
 }
+.divisao {
+  width: 100vw;
+  height: 10px;
+  margin: 30px 0 30px -8px;
+  background-color: black;
+}
